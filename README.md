@@ -2,6 +2,8 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
 
+[![github-pages](https://github.com/nwabear/VipinxFanSite/actions/workflows/main.yml/badge.svg?branch=master&event=push)](https://github.com/nwabear/VipinxFanSite/actions/workflows/main.yml)
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
