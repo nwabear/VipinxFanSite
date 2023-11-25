@@ -1,7 +1,7 @@
 #overview {background-color: #fff;position: relative}
 
 .container {
-  background-image: url("./assets/scrolling-vip.gif");
+  background-image: url("/assets/scrolling-vip.gif");
   background-repeat: repeat;
   height: 500%;
   width: 100%;
