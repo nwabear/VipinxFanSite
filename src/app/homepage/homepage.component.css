@@ -1,0 +1,40 @@
+#overview {background-color: #fff;position: relative}
+
+.container {
+  background-image: url("/assets/scrolling-vip.gif");
+  background-repeat: repeat;
+  height: 500%;
+  width: 100%;
+  background-color: red;
+  overflow: hidden;
+  position: relative;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  font-size: xx-large;
+  text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+  color: blue;
+}
+
+.container-inline-imgtxt {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+}
+
+.spin {
+  animation: spin 6s linear infinite
+}
+
+
+@keyframes spin {
+  0% {
+    transform: rotate3d(0, 1, 0, 0deg);
+  }
+  100% {
+    transform: rotate3d(0, 1, 0, 360deg);
+  }
+}
